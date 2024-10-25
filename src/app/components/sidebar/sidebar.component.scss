@@ -1,0 +1,17 @@
+ion-menu {
+    --width: 250px; /* Ajusta el ancho del menú */
+  }
+  
+  ion-list {
+    padding: 0;
+  }
+  
+  ion-item {
+    --background: #fff;
+    --color: #000;
+  }
+  
+  ion-item:hover {
+    --background: #e0e0e0;
+  }
+  

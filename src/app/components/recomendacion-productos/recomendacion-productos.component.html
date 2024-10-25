@@ -1,0 +1,8 @@
+<ion-list>
+  <ion-item *ngFor="let producto of productosMasVendidos">
+    <ion-label>
+      <h2>{{ producto.producto }}</h2>
+      <p>Cantidad vendida: {{ producto.cantidad }}</p>
+    </ion-label>
+  </ion-item>
+</ion-list>

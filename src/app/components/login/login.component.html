@@ -1,0 +1,13 @@
+<form (ngSubmit)="login()">
+  <ion-item>
+    <ion-input type="email" name="email" label="Email" fill="solid" labelPlacement="floating" placeholder="Email" [(ngModel)]="email"></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-input type="password" name="password" label="Contraseña" fill="solid" labelPlacement="floating" placeholder="Contraseña" [(ngModel)]="password"></ion-input>
+  </ion-item>
+  <br>
+  <a routerLink="/registrar">registrar</a>
+  <br>
+  <ion-button type="submit">Ingresar</ion-button>
+</form>

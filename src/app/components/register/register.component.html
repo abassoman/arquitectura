@@ -1,0 +1,18 @@
+
+<ion-card-content id="login">
+  <ion-input type="text" fill="solid" label="Nombre de Usuario" labelPlacement="floating"
+    helperText="Ingresa Nombre de Usuario" errorText="Invalid email" 
+    email></ion-input>
+  <ion-input type="email" fill="solid" label="Correo Electronico" labelPlacement="floating"
+    helperText="Ingresa Correo Electronico" errorText="Invalid email" [(ngModel)]="email" email></ion-input>
+  <ion-input type="password" fill="solid" label="Contraseña" labelPlacement="floating"
+    helperText="Ingresa tu Contraseña" [(ngModel)]="password"></ion-input>  
+  <br>
+  <a routerLink="/home">Volver</a>
+  <br>
+  
+  <ion-button (click)="register()">Registrar</ion-button>
+
+</ion-card-content>
+
+

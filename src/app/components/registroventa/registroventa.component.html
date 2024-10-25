@@ -1,0 +1,11 @@
+<form (ngSubmit)="addVenta()">
+  <ion-item>
+    <ion-select aria-label="producto" placeholder="Seleccione productos" [multiple]="true" [(ngModel)]="selectedProducts" name="productos">
+      <ion-select-option *ngFor="let produc of producto" [value]="{nombre: produc.nombreProducto, precio: produc.precio, cantidad: produc.cantidad,id: produc.id}">
+        {{produc.nombreProducto}} {{produc.precio}}
+      </ion-select-option>
+    </ion-select>
+  </ion-item>
+  <br>
+  <ion-button type="submit">Ingresar</ion-button>
+</form>

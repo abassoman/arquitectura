@@ -1,0 +1,16 @@
+<ion-list>
+  <ion-item *ngFor="let v of venta">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Registro de Venta</ion-card-title>
+        <ion-card-subtitle>Correo del Usuario : {{v.correocompra}}</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+        Lista de Productos : {{v.listacompra}}
+        <br>
+        Precio Total : {{v.preciototal}}
+      </ion-card-content>
+    </ion-card>
+  </ion-item>
+</ion-list>

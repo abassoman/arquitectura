@@ -1,0 +1,7 @@
+{
+  "name": "walmartApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
